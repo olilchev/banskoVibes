@@ -1,7 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+
 export const Footer = () => {
     return (
       <div className="footer-container">
-        <footer className="bg-dark-green text-white position-fixed" style={{ bottom: 0, left: 0, right: 0, width: "100%", height: "50px" }}>
+        <footer className="bg-dark-green text-white position-fixed" style={{ bottom: 0, left: 0, right: 0, width: "100%", height: "90px" }}>
           <div className="container">
             <div className="row mt-auto">
               <div className="col-lg-12 text-center">

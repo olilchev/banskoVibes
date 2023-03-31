@@ -24,9 +24,9 @@ export const Apartment = () => {
     display: 'block',
     width: '18rem',
     padding: "70px 60px 30px 45px"
-    
-
   }}
+    
+ 
 >
   <CardBody>
     <CardTitle tag="h5">
