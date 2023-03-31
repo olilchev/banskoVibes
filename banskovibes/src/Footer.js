@@ -1,10 +1,21 @@
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+// import {
+// 	Navbar,
+// 	NavItem,
+// 	NavbarToggler,
+// 	Collapse,
+// 	NavLink,
+// 	Nav,
+// 	NavbarBrand
+// } from 'reactstrap';
+import './custom-styles.css'
 
 
 export const Footer = () => {
     return (
+        <>
       <div className="footer-container">
         <footer className="bg-dark-green text-white position-fixed" style={{ bottom: 0, left: 0, right: 0, width: "100%" }}>
           <div className="container">
@@ -23,5 +34,6 @@ export const Footer = () => {
           </div>
         </footer>
       </div>
+      </>
     );
   };

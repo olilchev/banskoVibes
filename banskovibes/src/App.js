@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import { NavigationBar } from './NavigationBar';
+import { Footer } from './Footer';
 
 function App() {
   return (
-    <NavigationBar />
+    <div>
+    <header>
+      <NavigationBar />
+    </header>
+    <Footer />
+  </div>
+
   );
 }
 
