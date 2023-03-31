@@ -1,0 +1,97 @@
+.navbar-custom {
+    background-color: #193e3c;
+  }
+
+  .details-custom {
+    background-color: #193e3c;
+    color: white;
+  }
+  
+  .bg-dark-green {
+    background-color: #193e3c;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+
+  .title {
+    font-family: Arial, sans-serif;
+    color: rgb(38, 35, 35);
+    padding: 8px 60px 30px 45px;
+    width: 100%;
+  }
+
+  .my-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .my-card-header {
+    background-color: #e0e0e0;
+    border-bottom: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .beat-animation {
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .pulse-animation {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .footer-icon {
+    margin-top: 15px;
+    margin-right: 20px;
+  
+  }
+  /* .App {
+    border: 2px solid #d3d3d3;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 1em;
+    text-align: left;
+    width: 600px;
+  } */
+  
+  .form {
+    padding: 1em;
+  }
+  
+  label {
+    font-weight: 600;
+  }
