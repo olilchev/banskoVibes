@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import { NavigationBar } from './NavigationBar';
 import { Footer } from './Footer';
+import { Apartment } from './Apartment';
 
 function App() {
   return (
     <div>
-    <header>
+    
       <NavigationBar />
-    </header>
+      <Apartment />
+    
     <Footer />
   </div>
 

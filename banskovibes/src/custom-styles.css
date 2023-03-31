@@ -95,3 +95,7 @@
   label {
     font-weight: 600;
   }
+
+  .footer-container p {
+    margin-bottom: 0;
+  }
