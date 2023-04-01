@@ -28,7 +28,9 @@ export const Apartment = () => {
   style={{
     display: 'block',
     width: '18rem',
-    padding: "70px 60px 30px 45px"
+    padding: 40,
+    marginTop: "20px"
+    // "30px 60px 30px 45px"
   }}
     
  
