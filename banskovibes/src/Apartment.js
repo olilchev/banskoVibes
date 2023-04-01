@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson } from '@fortawesome/free-solid-svg-icons'
+
 import {
 
     Card,
@@ -28,8 +31,9 @@ export const Apartment = () => {
   style={{
     display: 'block',
     width: '18rem',
-    padding: 40,
-    marginTop: "20px"
+    padding: 30,
+    marginTop: "30px",
+    border: 'none' 
     // "30px 60px 30px 45px"
   }}
     
@@ -52,9 +56,19 @@ export const Apartment = () => {
     width="100%"
   />
   <CardBody>
-    <CardText>
-      1 bedroom, 1 bathroom, fully equipped kitchen, balkony, great location
-    </CardText>
+
+  <span style={{ paddingRight: "10px" }}>
+    <FontAwesomeIcon icon={faShower} size="2x" /> 
+</span>
+  <span style={{ paddingRight: "20px" }}>
+  <FontAwesomeIcon icon={faKitchenSet} size="2x" />
+  </span>
+  <span style={{ paddingRight: "0" }}>
+  <FontAwesomeIcon icon={faPerson} size="2x" />
+  <FontAwesomeIcon icon={faPerson} size="2x" />
+  <FontAwesomeIcon icon={faPerson} size="2x" />
+  <FontAwesomeIcon icon={faPerson} size="2x" />
+  </span>
     <CardLink href="#" className="details-custom">
       Details
     </CardLink>
