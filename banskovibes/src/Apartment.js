@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson } from '@fortawesome/free-solid-svg-icons'
+import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson,faChild } from '@fortawesome/free-solid-svg-icons'
 
 import {
 
@@ -68,8 +68,8 @@ export const Apartment = () => {
   <span style={{ paddingRight: "0" }}>
   <FontAwesomeIcon icon={faPerson} size="2x" />
   <FontAwesomeIcon icon={faPerson} size="2x" />
-  <FontAwesomeIcon icon={faPerson} size="2x" />
-  <FontAwesomeIcon icon={faPerson} size="2x" />
+  
+ 
   </span>
   <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
  
@@ -122,9 +122,10 @@ Comfort, mountain view and great location
   </span>
   <span style={{ paddingRight: "0" }}>
   <FontAwesomeIcon icon={faPerson} size="2x" />
+
+  <FontAwesomeIcon icon={faChild} size="1x" />
   <FontAwesomeIcon icon={faPerson} size="2x" />
-  <FontAwesomeIcon icon={faPerson} size="2x" />
-  <FontAwesomeIcon icon={faPerson} size="2x" />
+  
   </span>
   <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
  
