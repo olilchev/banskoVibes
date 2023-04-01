@@ -100,3 +100,11 @@
     margin-bottom: 0;
    
   }
+
+  .button-container {
+    display: flex;
+    margin-top: 20
+    
+    
+  }
+  

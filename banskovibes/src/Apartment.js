@@ -43,12 +43,12 @@ export const Apartment = () => {
     <CardTitle tag="h5">
       Vesta Apartment
     </CardTitle>
-    <CardSubtitle
-      className="mb-2 text-muted"
-      tag="h6"
-    >
-      Cozzy and Comfort
-    </CardSubtitle>
+    {/* <CardSubtitle
+  className="mb-2 text-muted"
+  style={{ color: "#193e3c", display: "flex", justifyContent: "center" }}
+>
+  Style & Comfort
+</CardSubtitle> */}
   </CardBody>
   <img
     alt="Card cap"
@@ -69,10 +69,13 @@ export const Apartment = () => {
   <FontAwesomeIcon icon={faPerson} size="2x" />
   <FontAwesomeIcon icon={faPerson} size="2x" />
   </span>
-    <CardLink href="#" className="details-custom">
-      Details
-    </CardLink>
-   
+  <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
+ 
+      <CardLink href="#" className="details-custom">
+        <Button className="details-custom" size="lg" style={{ fontSize: '12px', padding: 7, width: '380%'}}>Details</Button>
+      </CardLink>
+  </div>
+    
   </CardBody>
 </Card>
    
