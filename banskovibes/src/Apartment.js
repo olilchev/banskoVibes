@@ -1,4 +1,3 @@
-import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson } from '@fortawesome/free-solid-svg-icons'
@@ -43,12 +42,12 @@ export const Apartment = () => {
     <CardTitle tag="h5">
       Vesta Apartment
     </CardTitle>
-    {/* <CardSubtitle
+    <CardSubtitle
   className="mb-2 text-muted"
   style={{ color: "#193e3c", display: "flex", justifyContent: "center" }}
 >
-  Style & Comfort
-</CardSubtitle> */}
+  Cozzy and quiet near ski slope and hiking routes
+</CardSubtitle>
   </CardBody>
   <img
     alt="Card cap"
@@ -78,6 +77,8 @@ export const Apartment = () => {
     
   </CardBody>
 </Card>
+
+
    
 
     )
