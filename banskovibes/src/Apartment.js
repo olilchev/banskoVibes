@@ -13,11 +13,16 @@ import {
 
 import './custom-styles.css';
 
+import { useEffect } from "react";
+import { useState } from "react";
 
 
 export const Apartment = () => {
-    return (
+  useEffect(() => {
+    console.log("MOUNTING");
+  }, []);
 
+    return (
 
 <Card
   style={{
