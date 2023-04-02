@@ -154,7 +154,7 @@ Comfort, mountain view and great location
     
     <CardSubtitle
   
-  style={{ color: "#193e3c", display: "flex", justifyContent: "center", fontSize: "20px"}}
+  style={{ color: "#193e3c", display: "flex", justifyContent: "center", fontSize: "15px"}}
 >
 
 Fully equipped kitchen <br />
@@ -166,7 +166,7 @@ Fully equipped kitchen <br />
           Cleaning on request<br />
           Laundry inside<br />
           Free parking <br />
-         
+          Great location for all activities
           Fresh towels and linen<br />
           Transfers<br />
           Good option for digital nomads!<br />
@@ -181,9 +181,7 @@ Fully equipped kitchen <br />
 </Card>
 
 </div>
-<div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-<h2>Profesionally cleaning and desinfection</h2>
-</div>
+
 </div>
 </>
    
