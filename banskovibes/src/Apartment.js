@@ -47,13 +47,18 @@ export const Apartment = () => {
  
 >
   <CardBody>
-    <CardTitle tag="h4">
+    <CardTitle tag="h3" style={{fontWeight: 'bold', fontSize:"200"}}>
       Vesta Apartment
     </CardTitle>
     <CardSubtitle
-  className="mb-2 text-muted"
-  style={{ color: "#193e3c", display: "flex", justifyContent: "center" }}
->
+    className="mb-2"
+    style={{
+     
+      display: "flex",
+      justifyContent: "center",
+      fontSize: "1.2rem", // optional: change the font size
+      style: "fontWeight: 'bold"
+    }}>
   Cozzy and quiet near ski slope and hiking routes
 </CardSubtitle>
   </CardBody>
@@ -104,7 +109,7 @@ export const Apartment = () => {
  
 >
   <CardBody>
-  <CardTitle tag="h4" style={{fontWeight: 'bold'}}>
+  <CardTitle tag="h3" style={{fontWeight: 'bold'}}>
      Flora Apartment
     </CardTitle>
     <CardSubtitle
@@ -249,32 +254,32 @@ export const Apartment = () => {
   
   style={{ color: "#193e3c", display: "inline", justifyContent: "center", fontSize: "15px"}}
 >
-<div style={{ display: "flex", alignItems: "center" }}>
+<div style={{ display: "flex", alignItems: "center", fontWeight: "bold" }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> Proffessional cleaning and desinfection<br/>
 
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px",fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Air conditioning and heating<br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> High-speed Wi-Fi<br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> 24/7 maitenance<br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px"  }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"   }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} />  Queen size bed<br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Extendatble sofa<br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Free parking <br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Pet friendly <br/>
 </div>
-<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px", fontWeight: "bold"  }}>
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> Great location for all activities <br/>
 </div>
          
