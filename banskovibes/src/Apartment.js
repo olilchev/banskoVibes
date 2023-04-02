@@ -166,10 +166,13 @@ Fully equipped kitchen <br />
           Cleaning on request<br />
           Laundry inside<br />
           Free parking <br />
+          Fresh view<br />
           Great location for all activities
           Fresh towels and linen<br />
           Transfers<br />
+          Small but cozzy terrace<br />
           Good option for digital nomads!<br />
+          
 
 </CardSubtitle>
   </CardBody>
