@@ -5,6 +5,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "install": "^0.13.0",
-    "npm": "^9.6.3"
+    "npm": "^9.6.3",
+    "react-image-gallery": "^1.2.11",
+    "react-router-dom": "^6.10.0"
   }
 }

@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson,faChild, faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson,faChild, faDog } from '@fortawesome/free-solid-svg-icons'
 
 import {
 
@@ -66,12 +66,15 @@ export const Apartment = () => {
   <span style={{ paddingRight: "20px" }}>
   <FontAwesomeIcon icon={faKitchenSet} size="2x" />
   </span>
-  <span style={{ paddingRight: "0" }}>
+ 
+  <span style={{ paddingRight: "20" }}>
   <FontAwesomeIcon icon={faPerson} size="2x" />
   <FontAwesomeIcon icon={faPerson} size="2x" />
   
- 
   </span>
+  <span style={{ paddingRight: "10px" }}>
+    <FontAwesomeIcon icon={faDog} size="2x" /> 
+    </span>
   <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
  
       <CardLink href="#" className="details-custom">
@@ -170,7 +173,7 @@ Fully equipped kitchen <br />
           Great location for all activities
           Fresh towels and linen<br />
           Transfers<br />
-          Small but cozzy terrace<br />
+          A little cozzy terrace<br />
           Good option for digital nomads!<br />
           
 
