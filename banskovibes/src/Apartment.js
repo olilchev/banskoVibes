@@ -75,7 +75,7 @@ export const Apartment = () => {
   <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
  
       <CardLink href="#" className="details-custom">
-        <Button className="details-custom" size="lg" style={{ fontSize: '12px', padding: 7, width: '380%'}}>Details</Button>
+        <Button className="details-custom" size="lg" style={{ fontSize: '12px', padding: 7, width: '380%'}}>Gallery</Button>
       </CardLink>
   </div>
     
@@ -129,7 +129,7 @@ Comfort, mountain view and great location
   <div className="button-container" style={{ marginTop: '15px',  width: '70%'}}>
  
       <CardLink href="#" className="details-custom">
-        <Button className="details-custom" size="lg" style={{ fontSize: '12px', padding: 7, width: '380%'}}>Details</Button>
+        <Button className="details-custom" size="lg" style={{ fontSize: '12px', padding: 7, width: '380%'}}>Gallery</Button>
       </CardLink>
   </div>
     
