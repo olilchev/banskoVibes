@@ -107,4 +107,11 @@
     
     
   }
+  .bold-text {
+    font-weight: normal; /* set normal font weight by default */
+  }
+  
+  .bold-text:hover {
+    font-weight: bold; /* set bold font weight when hovered */
+  }
   

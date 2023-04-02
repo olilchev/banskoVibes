@@ -1,6 +1,6 @@
-
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson,faChild, faDog } from '@fortawesome/free-solid-svg-icons'
+import { faKitchenSet, faBath, faUtensils, faDoorOpen, faShower, faPerson,faChild, faDog, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
 import {
 
@@ -23,6 +23,9 @@ export const Apartment = () => {
   useEffect(() => {
     console.log("MOUNTING");
   }, []);
+
+
+  
 
     return (
 <>
@@ -145,7 +148,8 @@ Comfort, mountain view and great location
     padding: 30,
     marginTop: "40px",
     border: 'none',
-    marginLeft: "1px" 
+    marginLeft: "1px" ,
+    height: 'auto'
     
     // "30px 60px 30px 45px"
   }}
@@ -153,28 +157,119 @@ Comfort, mountain view and great location
  
 >
   <CardBody>
+ 
+
+  {/* <CardSubtitle
+  style={{
+    color: "#193e3c",
+    display: "flex",
+    justifyContent: "center",
+    fontSize: "15px",
+  }}
+>
+  <ul style={{ listStyleType: "none", padding: 0 }}>
+    <li>Fully equipped kitchen</li>
+    <li>Professional cleaning and disinfection</li>
+    <li>Air conditioning and heating</li>
+    <li>High-speed Wi-Fi</li>
+    <li>24/7 maintenance</li>
+    <li>Queen size bed</li>
+    <li>Extendable sofa</li>
+    <li>Cleaning on request</li>
+    <li>Laundry inside</li>
+    <li>Free parking</li>
+    <li>Pet friendly</li>
+    <li>Fresh view</li>
+    <li>Great location for all activities</li>
+    <li>Fresh towels and linen</li>
+    <li>Transfers</li>
+    <li>A little cozy terrace</li>
+  </ul>
+</CardSubtitle> */}
+
+
+
+
+    {/* -------------------------- */}
+
+    
+  {/* <CardSubtitle
+  style={{
+    color: "#193e3c",
+    display: "flex",
+    justifyContent: "center",
+    fontSize: "15px",
+    flexDirection: "column",
+    paddingLeft: "10px",
+  }}
+>
+  <div
+    onClick={() => setIsHighlighted(!isHighlighted)}
+    style={{ fontWeight: isHighlighted ? "bold" : "normal" }}
+  >
+    Fully equipped kitchen
+  </div>
+  <div
+    onClick={() => setIsHighlighted(!isHighlighted)}
+    style={{ fontWeight: isHighlighted ? "bold" : "normal" }}
+  >
+    Proffessional cleaning and desinfection
+  </div>
+  <div
+    onClick={() => setIsHighlighted(!isHighlighted)}
+    style={{ fontWeight: isHighlighted ? "bold" : "normal" }}
+  >
+    Air conditioning and heating
+  </div>
+  <div
+    onClick={() => setIsHighlighted(!isHighlighted)}
+    style={{ fontWeight: isHighlighted ? "bold" : "normal" }}
+  >
+    High-speed Wi-Fi
+  </div>
+</CardSubtitle> */}
+
+
+
+
+
+
 
     
     <CardSubtitle
   
-  style={{ color: "#193e3c", display: "flex", justifyContent: "center", fontSize: "15px"}}
+  style={{ color: "#193e3c", display: "inline", justifyContent: "center", fontSize: "15px"}}
 >
+<div style={{ display: "flex", alignItems: "center" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> Proffessional cleaning and desinfection<br/>
 
-Fully equipped kitchen <br />
-          Proffessional cleaning and desinfection<br />
-          Air conditioning and heating <br />
-          High-speed Wi-Fi <br />
-          24/7 maitenance <br />
-          Queen size bed <br />
-          Cleaning on request<br />
-          Laundry inside<br />
-          Free parking <br />
-          Fresh view<br />
-          Great location for all activities
-          Fresh towels and linen<br />
-          Transfers<br />
-          A little cozzy terrace<br />
-          Good option for digital nomads!<br />
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Air conditioning and heating<br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> High-speed Wi-Fi<br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> 24/7 maitenance<br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px"  }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} />  Queen size bed<br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Extendatble sofa<br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Free parking <br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}} /> Pet friendly <br/>
+</div>
+<div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{marginRight: "10px"}}/> Great location for all activities <br/>
+</div>
+         
+          
           
 
 </CardSubtitle>
