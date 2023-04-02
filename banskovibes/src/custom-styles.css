@@ -29,7 +29,7 @@
   }
   
   .my-card-header {
-    background-color: #e0e0e0;
+    background-color: hsl(70, 75%, 2%);
     border-bottom: none;
     font-weight: bold;
     text-align: center;
@@ -113,5 +113,24 @@
   
   .bold-text:hover {
     font-weight: bold; /* set bold font weight when hovered */
+  }
+
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://scontent-sof1-1.xx.fbcdn.net/v/t39.30808-6/336788315_609416907869267_7057566735378703313_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0debeb&_nc_ohc=Da2Jyt2RdmEAX8pEsK6&_nc_ht=scontent-sof1-1.xx&oh=00_AfB0kvQo8BffLTzJAbjVgO5cZeTEJmzVc6kSjR_aQu5sLg&oe=642DA648');
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  
+  .blur-container {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    color: white;
   }
   

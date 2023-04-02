@@ -39,14 +39,15 @@ export const Apartment = () => {
     padding: 30,
     marginTop: "30px",
     border: 'none' ,
-    marginLeft: "30px"
+    marginLeft: "30px",
+    backgroundColor: 'transparent'
     // "30px 60px 30px 45px"
   }}
     
  
 >
   <CardBody>
-    <CardTitle tag="h5">
+    <CardTitle tag="h4">
       Vesta Apartment
     </CardTitle>
     <CardSubtitle
@@ -94,7 +95,8 @@ export const Apartment = () => {
     padding: 30,
     marginTop: "30px",
     border: 'none',
-    marginLeft: "30px" 
+    marginLeft: "30px" ,
+    backgroundColor: 'transparent'
     
     // "30px 60px 30px 45px"
   }}
@@ -102,15 +104,21 @@ export const Apartment = () => {
  
 >
   <CardBody>
-    <CardTitle tag="h5">
+  <CardTitle tag="h4" style={{fontWeight: 'bold'}}>
      Flora Apartment
     </CardTitle>
     <CardSubtitle
-  className="mb-2 text-muted"
-  style={{ color: "#193e3c", display: "flex", justifyContent: "center" }}
+  className="mb-2"
+  style={{
+   
+    display: "flex",
+    justifyContent: "center",
+    fontSize: "1.2rem", // optional: change the font size
+    style: "fontWeight: 'bold"
+  }}
 >
-Comfort, mountain view and great location
-</CardSubtitle>
+  Comfort, mountain view and great location
+</CardSubtitle >
   </CardBody>
   <img
     alt="Card cap"
@@ -149,7 +157,8 @@ Comfort, mountain view and great location
     marginTop: "40px",
     border: 'none',
     marginLeft: "1px" ,
-    height: 'auto'
+    height: 'auto',
+    backgroundColor: 'transparent'
     
     // "30px 60px 30px 45px"
   }}

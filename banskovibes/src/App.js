@@ -16,14 +16,16 @@ function App() {
     //     </Route>
     //   </Routes>
   // //   <div>
-    <div>
+  <div>
+  <div className="background-image"></div>
+
       <NavigationBar />
       <Apartment />
       
     
     <Footer />
+    
     </div>
-
 
   );
 }
