@@ -154,14 +154,14 @@ Comfort, mountain view and great location
     
     <CardSubtitle
   
-  style={{ color: "#193e3c", display: "flex", justifyContent: "center", fontSize: "20px", fontWeight: "bold" }}
+  style={{ color: "#193e3c", display: "flex", justifyContent: "center", fontSize: "20px"}}
 >
 
 Fully equipped kitchen <br />
           Proffessional cleaning and desinfection<br />
           Air conditioning and heating <br />
           High-speed Wi-Fi <br />
-          
+          24/7 maitenance <br />
           Queen size bed <br />
           Cleaning on request<br />
           Laundry inside<br />
