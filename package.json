@@ -4,6 +4,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "check-node-version": "^4.2.1",
     "install": "^0.13.0",
     "npm": "^9.6.3",
     "react-image-gallery": "^1.2.11",
