@@ -21,8 +21,8 @@ function App() {
   <div className="background-image"></div>
 
      <div className="background-image"></div>  <NavigationBar />
-      <Apartment />
-      {/* <Home /> */}
+      {/* <Apartment /> */}
+      <Home />
       
       
     
