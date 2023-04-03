@@ -17,7 +17,7 @@ function App() {
     //     </Route>
     //   </Routes>
   // //   <div>
-  <div>
+  <div id="root">
   <div className="background-image"></div>
 
      <div className="background-image"></div>  <NavigationBar />
@@ -29,6 +29,7 @@ function App() {
     <Footer />
     
     </div>
+    
 
   );
 }

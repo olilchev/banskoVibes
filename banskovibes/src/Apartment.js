@@ -109,7 +109,7 @@ export const Apartment = () => {
  
 >
   <CardBody>
-  <CardTitle tag="h5" style={{fontWeight: 'bold'}}>
+  <CardTitle tag="h6" style={{fontWeight: 'bold'}}>
      Flora Apartment
     </CardTitle>
     <CardSubtitle
