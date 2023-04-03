@@ -6,6 +6,7 @@ import { Footer } from './Footer';
 import { Apartment } from './Apartment';
 import ImageGallery from 'react-image-gallery';
 import { images } from './gallery-image';
+import { Home } from './Home';
 
 
 function App() {
@@ -19,8 +20,10 @@ function App() {
   <div>
   <div className="background-image"></div>
 
-      <NavigationBar />
+     <div className="background-image"></div>  <NavigationBar />
       <Apartment />
+      {/* <Home /> */}
+      
       
     
     <Footer />
