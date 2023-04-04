@@ -21,7 +21,7 @@ import { useState } from "react";
 
 export const Apartment = () => {
   useEffect(() => {
-    console.log("MOUNTING");
+    console.log("test");
   }, []);
 
 
@@ -124,6 +124,9 @@ export const Apartment = () => {
 >
   Comfort, mountain view and great location
 </CardSubtitle >
+{/* <CardBody>
+  <video src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" autoplay loop className="card-video"></video>
+</CardBody> */}
   </CardBody>
   <img
     alt="Card cap"
@@ -285,7 +288,7 @@ export const Apartment = () => {
 <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Quiet building</span><br />
 </div>
 
-  <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+  <div st yle={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
   <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Air conditioning and heating</span><br />
   </div>
    

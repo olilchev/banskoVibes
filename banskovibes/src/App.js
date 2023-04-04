@@ -18,9 +18,10 @@ function App() {
     //   </Routes>
   // //   <div>
   <div id="root">
-  <div className="background-image"></div>
+  /* <div className="background-image"></div>
 
-     <div className="background-image"></div>  <NavigationBar />
+     <div className="background-image"></div>  <NavigationBar /> */
+
       {/* <Apartment /> */}
       <Home />
       
