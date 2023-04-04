@@ -285,16 +285,16 @@ export const Apartment = () => {
 </div>
 
 <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
-<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Quiet building</span><br />
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Near ski slope and Cabin station</span><br />
 </div>
 
   <div st yle={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
   <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Air conditioning and heating</span><br />
   </div>
    
-    <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
-    <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Air conditioning and heating</span><br />
-    </div>
+  <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
+<FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Near ski slope and Cabin station</span><br />
+</div>
       
       <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
       <FontAwesomeIcon icon={faCheckCircle} size="2x" style={{ marginRight: "10px" }} /><span style={{ color: "black", fontWeight: "bold" }}>Air conditioning and heating</span><br />
