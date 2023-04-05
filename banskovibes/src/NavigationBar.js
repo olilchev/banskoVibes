@@ -36,25 +36,24 @@ export const NavigationBar = () => {
       <NavLink href="#">Services</NavLink>
     </NavItem>
     <NavItem>
-      <NavLink href="#">Book Now!</NavLink>
+      <NavLink href="#">Reservations</NavLink>
     </NavItem>
-    <NavItem className="ml-auto">
-      <NavLink href="/login">
-        
-      </NavLink>
+    <NavItem>
+      <NavLink href="#">Contacts</NavLink>
     </NavItem>
+
   </Nav>
   <Nav className="ml-auto" navbar>
     <NavItem>
       <NavLink href="#">
         <FontAwesomeIcon icon={faWhatsapp} className="mr-2 beat-animation" />
-        Conatct Us!
+        Online Chat
       </NavLink>
     </NavItem>
     <NavItem>
       <NavLink href="#">
         <FontAwesomeIcon icon={faFacebook} className="mr-2 beat-animation" />
-        Subscribe!
+        Subscribe
       </NavLink>
     </NavItem>
     <NavItem>
